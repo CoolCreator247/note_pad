@@ -114,7 +114,7 @@ class Notepad:
         # exit()
 
     def __showAbout(self):
-        showinfo("Notepad 1.0", "By Faris Allafi")
+        showinfo("Notepad 1.0", "By Faris Allafi 2022 git : https://github.com/CoolCreator247/note_pad")
 
     def __openFile(self):
 

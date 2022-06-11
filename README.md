@@ -1,1 +1,2 @@
-# note_pad is a basic note app to store your notes 
+# note_pad is a basic note app to store your notes or code :)
+

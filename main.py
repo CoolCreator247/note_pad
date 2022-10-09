@@ -43,7 +43,7 @@ class Notepad:
             pass
 
         # Set the window text
-        self.__root.title("Note pad 1.0 by Faris Allafi")
+        self.__root.title("Note pad 1.1 by Faris Allafi")
 
         # Center the window
         screenWidth = self.__root.winfo_screenwidth()
@@ -114,7 +114,7 @@ class Notepad:
         # exit()
 
     def __showAbout(self):
-        showinfo("Notepad 1.0", "By Faris Allafi 2022 git : https://github.com/CoolCreator247/note_pad")
+        showinfo("Notepad 1.1", "By Faris Allafi 2022 git : https://github.com/CoolCreator247/note_pad")
 
     def __openFile(self):
 
@@ -140,7 +140,7 @@ class Notepad:
             file.close()
 
     def __newFile(self):
-        self.__root.title("Notepad 1.0")
+        self.__root.title("Notepad 1.1")
         self.__file = None
         self.__thisTextArea.delete(1.0, END)
 
@@ -165,11 +165,11 @@ class Notepad:
 
                 # Change the window title
                 self.__root.title(
-                    os.path.basename(self.__file) + " - Notepad 1.0")
+                    os.path.basename(self.__file) + " - Notepad 1.1")
 
         else:
             file = open(self.__file, "w")
-            file.write(self.__thisTextArea.get(1.0, END))
+            file.write(self.__thisTextArea.get(1.1, END))
             file.close()
 
     def __cut(self):
